@@ -1,6 +1,6 @@
-# react-animations
+# react-animations-overview
 
-react-animations is a tiny create-react-app project used for learning by doing different approaches in order to generate animations using React
+react-animations-overview is a tiny create-react-app project used for learning by doing different approaches in order to generate animations using React
 
 This project is one of the project series proposed in [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
@@ -17,11 +17,11 @@ This project is one of the project series proposed in [React - The Complete Guid
 
 ## 🛠 Installation & 🚀 Usage
 
-Use the node package manager [npm](https://npmjs.com/) to install react-animations.
+Use the node package manager [npm](https://npmjs.com/) to install react-animations-overview.
 
 ```javascript
 // for the 🛠 installation
-cd ./react-animations
+cd ./react-animations-overview
 npm i
 
 // for 🚀 running the project
