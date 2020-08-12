@@ -6,9 +6,9 @@ This project is one of the project series proposed in [React - The Complete Guid
 
 
 ## 🔎 It explores
-- CSS transitions
-- CSS animations
-- CSS animation & transition limitations
+- Native CSS transitions
+- Native CSS animations
+- Native CSS animation & transition limitations
 - The use of CSSTranstionGroup
 - The use of CSSTranstion
 - The customization of CSS classnames
