@@ -10,8 +10,9 @@ This project is one of the project series proposed in [React - The Complete Guid
 - Native CSS animations
 - Native CSS animation & transition limitations
 - The use of CSSTranstionGroup
-- The use of CSSTranstion
-- The customization of CSS classnames
+- The use of CSSTransition
+- The customization of CSSTransition classnames
+- How to animate lists
 
 
 ## 🛠 Installation & 🚀 Usage
