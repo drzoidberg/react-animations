@@ -32,17 +32,26 @@ class App extends Component {
                 onClick={() => this.setState(prevState => ({ showBlock: !prevState.showBlock }))}
             >Toggle</button>
             <br/>
-            {this.state.showBlock
-                ? <div
-                    style={{
-                        backgroundColor: 'red',
-                        width: '100px',
-                        height: '100px',
-                        margin: '20px auto 40px',
-                    }}>
 
+            <Transition
+                in={this.state.showBlock}
+                timeout={1000}
+                mountOnEnter
+                unmountOnExit
+            >
+                {state => (
+                    <div
+                        style={{
+                            backgroundColor: 'red',
+                            width: '100px',
+                            height: '100px',
+                            margin: '20px auto 40px',
+                            transition: 'opacity 1s ease-out',
+                            opacity: state === 'exiting' ? 0 : 1
+                        }}>
                     </div>
-                : null}
+                )}
+            </Transition>
             {this.state.modalIsOpen
                 ? <Modal show={this.state.modalIsOpen} closed={this.closeModal}/>
                 : null}
